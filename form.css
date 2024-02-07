@@ -1,63 +1,60 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  .container {
-    max-width: 400px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-  width: 100%;
+body, html {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  height: 100%; /* Set height to 100% */
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto; /* Center horizontally */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  height: 100%; /* Set height to 100% */
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block; /* Display labels as block elements */
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Make text fields full width */
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  box-sizing: border-box; /* Added */
-  display: block; /* Added */
-  margin: 0 auto; /* Added */
+  box-sizing: border-box;
 }
 
-  
-  textarea {
-    height: 100px;
-  }
-  
-  button {
-    background-color: #131313;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  .status {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #131313;
+  width: 100%; /* Make button full width */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.status {
+  text-align: center;
+  margin-top: 20px;
+}
