@@ -3,6 +3,8 @@
 }
 
 body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
   font-family: Mon, sans-serif;
   background-color: #ffffff;
 }
